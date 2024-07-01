@@ -46,8 +46,6 @@
 5. Graph Textures中由于原图片在mask中每次添加时的位置有一定随机性，运行时可能会出现数组越界的情况，可能是由于边界处的情况未能处理好，但发生概率较低，重新运行即可。
 6. 实验过程由Opencv窗口进行可视化，可看到纹理合成和图像分割的效果，可通过终端窗口查看按键操作提示与程序运行情况。
 7. Graph Textures的运行时间大约$5\thicksim 15$分钟，与图片复杂度等因素有关。
-8. 附有demo视频可供查看。
-
 
 ## References
 [1] V. Kolmogorov和R. Zabin, 《What energy functions can be minimized via graph cuts?》, IEEE Transactions on Pattern Analysis and Machine Intelligence, 卷 26, 期 2, 页 147–159, 2月 2004, doi: 10.1109/TPAMI.2004.1262177.
